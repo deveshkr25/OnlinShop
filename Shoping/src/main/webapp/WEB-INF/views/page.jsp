@@ -4,7 +4,7 @@
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <spring:url  var="css" value="/resources/css"/>
 <spring:url  var="js" value="/resources/js"/>
-<spring:url  var="images" value="/resources/images/"/>
+<spring:url  var="images" value="/resources/images"/>
 <c:set var="RootContext" value="${pageContext.request.contextPath}"/>
 <!DOCTYPE html>
 <html lang="en">
@@ -215,15 +215,16 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Copyright &copy; devshop@info.com 2018</p>
       </div>
       <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
     <script src="${js}/jquery.min.js"></script>
-    <script src="${js}/bootstrap.min.js"></script>
+    <script src="${js}/bootstrap.bundle.min.js"></script>
 
   </body>
+
 
 </html>
